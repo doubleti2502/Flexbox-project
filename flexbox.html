@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <style>
+                .flex-container1 {
+                    display: flex;
+                    background-color: aqua;
+                    flex-direction: column;
+                }
+                .flex1 {
+                    display: flex;
+                    background-color: pink;
+                    width: 100px;
+                    height: 100px;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 25px;
+                }
+                
+                .flex-container2 {
+                    display: flex;
+                    background-color: blueviolet;
+                    flex-direction: row;
+                }
+                .flex2 {
+                    display: flex;
+                    background-color: yellow;
+                    width: 100px;
+                    height: 100px;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 20px;
+                }
+
+                .flex-container3 {
+                    display: flex;
+                    background-color: royalblue;
+                    flex-direction: row;
+                    height: 200px;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .flex3{
+                    display: flex;
+                    background-color: orange;
+                    width: 100px;
+                    height: 100px;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 20px;
+                }
+                
+         </style>
+    </head>
+    <body>
+        <!--Flex theo chieu doc-->
+        <h1>Vertical flex</h1>
+        <div class="flex-container1">
+            <p class="flex1">A</p>
+            <p class="flex1">B</p>
+            <p class="flex1">C</p>
+         </div>
+     
+        <!--Flex theo chieu nam ngang-->
+        <h1>Horizontal flex</h1>
+        <div class="flex-container2">
+            <p class="flex2">1</p>
+            <p class="flex2">2</p>
+            <p class="flex2">3</p>
+        </div>
+
+
+         <h1>Center</h1>
+         <div class="flex-container3">
+             <p class="flex3">Du lich</p>
+             <p class="flex3">An uong</p>
+             <p class="flex3">The thao</p>
+         </div>
+    </body>
+</html>
